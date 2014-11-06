@@ -1,13 +1,17 @@
-Title
+Git Bloggin'
 
-Subtitle
+Technical Blog
 
-Date
+November 5th, 2014 - Week 1 at Dev Bootcamp
 
-Paragraph 1
+Hello world! I have officially embarked on my journey as a Web Developer at a coding school in New York City called Dev Bootcamp (@devbootcamp). In an effort to give back, and share my learnings with the world I created this technical blog. Here I will share my learnings week by week, covering all sorts of topics from HTML, CSS, and Ruby to GitHub and Markdown syntax (which I don't quite know how to use yet). Ladies and gents without further adieu, I welcome you on this technical journey.
 
-Paragraph 2
+So first, let's talk about Github and Git, they are not the same thing. They are the key tools for any web developer and it's important to know what they are and their differences. Git is a version-control software that you can download to your computer like any other software or app and run it from your terminal instead of the mouse and window interface we are used to. You can also use the Git app to run Git but I wouldn't recommend it, and besides using the terminal makes you cool! Anyway, you can create files, edit, and keep track of them all in one place. Programmers use Git mostly for code, as is my main use. On the other hand GitHub is just that, a hub on the internet where all these files are stored, and shared with the world. Programmers could share their code remotely and collaborate on projects at the same time. You can also run GitHub from the terminal by using commands like "pull" and "push".
 
-Paragraph 3
+So what are the benefits of using this version control software you ask? Well, I am glad to answer that for you. Let's say you are starting a project (your first website), and you want to store your files somewhere knowing of course that the files will change often and grow quickly. So what should you do? Buy a hard drive, get a premier version of Dropbox? No! Install Git on your computer, create that new project, and track it on GitHub.com with a new free account. Once you make changes you can "commit" or save them to the web, where anyone else can access them. Even better, if you choose to work with others on this project, you can see the changes they have made and "pull" them right into your work. As you can imagine this is extremely beneficial to groups who work remotely, and also saves a lot of time in communication.
 
-Add as many paragraphs as you want!!!
+GitHub stores identical copies of your directories or respositories (same thing). When it stores your work it keeps track of all your changes through an on-going log for every time you made a "commit" save, think of them like checkpoints in a videogame. If you have ever used Microsoft Office and their "track changes" feature you understand the concept, its exactly the same thing, just online. You can always refer back to a previous commit/version, no matter the length of time in between, which is great for developers who may be working on things like bug fixes.
+
+So why should you use GitHub to store your code? Well besides the obvious benefits it being a hosting service for your code, its also a collaboration tool. You can share your work with the world, and others can add to that work and comment on what you are doing. Another bonus is that GitHub is the most used Git hosting service around, meaning that it has a great community of people. And as you may already know, a platform is only as good as its people.
+
+So what are you waiting for? Go install Git now and share your thoughts!
