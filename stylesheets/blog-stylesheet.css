@@ -26,4 +26,8 @@ p {
   text-align: center;
 }
 
+body {
+  position: center;
+}
+
 /*  display: inline-block; for nav bar */
