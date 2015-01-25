@@ -1,0 +1,49 @@
+
+h1{
+  font-family: Helvetica;
+  color: black;
+  font-size: 80px;
+  letter-spacing: .2em;
+  text-align: center;
+}
+
+h5{
+  font-family: Helvetica;
+  color: #FF66CC;
+  letter-spacing: .2em;
+  text-align: center;
+}
+
+li{
+  display: inline;
+  padding: 50px;
+}
+
+ul{
+  text-align: center;
+  position: relative;
+  right: 30px;
+  top: 20px;
+  margin-bottom: 70px;
+}
+
+li a{
+  text-decoration: none;
+  color: black;
+}
+
+a:hover{
+  color: #FF66CC;
+}
+
+body{
+  width: 960px;
+  margin: 0 auto;
+}
+
+#icons img{
+  display: inline-block;
+  padding: 20px;
+  height: 250px;
+  width: 250px;
+}
