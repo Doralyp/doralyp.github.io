@@ -1,20 +1,23 @@
 
 h1{
-  font-family: Helvetica;
+  font-family: 'Indie Flower', cursive;
   color: black;
   font-size: 80px;
   letter-spacing: .2em;
   text-align: center;
+  margin: 10px;
 }
 
 h5{
-  font-family: Helvetica;
+  font-family: 'Indie Flower', cursive;
   color: #FF66CC;
   letter-spacing: .2em;
   text-align: center;
+  margin: 10px;
 }
 
 li{
+  font-family: 'Indie Flower', cursive;
   display: inline;
   padding: 50px;
 }
@@ -35,10 +38,12 @@ a:hover{
   color: #FF66CC;
 }
 
-#selfie{
+#selfie img{
   position: relative;
-  top: 30px;
-  left: 350px;
+  top: 70px;
+  right: 30px;
+  max-width: 400px;
+  max-height: 400px;
 }
 /*refactor*/
 

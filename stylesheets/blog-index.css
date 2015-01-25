@@ -1,6 +1,6 @@
 
 h1{
-  font-family: Helvetica;
+  font-family: 'Indie Flower', cursive;
   color: black;
   font-size: 80px;
   letter-spacing: .2em;
@@ -8,7 +8,7 @@ h1{
 }
 
 h5{
-  font-family: Helvetica;
+  font-family: 'Indie Flower', cursive;
   color: #FF66CC;
   letter-spacing: .2em;
   text-align: center;
@@ -17,6 +17,7 @@ h5{
 li{
   display: inline;
   padding: 50px;
+  font-family: 'Indie Flower', cursive;
 }
 
 ul{
