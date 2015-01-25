@@ -5,6 +5,7 @@ h1{
   font-size: 80px;
   letter-spacing: .2em;
   text-align: center;
+  margin: 10px;
 }
 
 h5{
@@ -12,12 +13,13 @@ h5{
   color: #FF66CC;
   letter-spacing: .2em;
   text-align: center;
+  margin: 10px;
 }
 
 li{
+  font-family: 'Indie Flower', cursive;
   display: inline;
   padding: 50px;
-  font-family: 'Indie Flower', cursive;
 }
 
 ul{
@@ -25,7 +27,6 @@ ul{
   position: relative;
   right: 30px;
   top: 20px;
-  margin-bottom: 70px;
 }
 
 li a{
