@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Doraly's Blog</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet.css">
+  <link href='http://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+  <img src="../imgs/javascript_logo.png">
+
+  <h1 class="center">Javascript</h1>
+  <h2 class="center">Javascript & Ruby similarities and differences </h2>
+  <h4 class="center">March 2nd, 2015</h4>
+
+  <section class="center">
+    <p>
+      <b>Summary</b>
+    </p>
+    <p>
+      Both Ruby and Javascript are object oriented programs or languages. This makes them very similar in terms of design, code, and logic. However, they are different. Javascript is used for Front-End Development, more specifically for the web browsers. It works with HTML, & CSS and gives websites motion and allows for interactivity. Things like drop down menus, sliders, an quizzes are all written in Javascript. While Ruby is a Back-End Development tool used for creating programs, the part of the code that you can’t see. Backend languages usually deal with servers and databases. So anytime you search for information or access your username and password for example, you are using a backend system.
+
+      Let’s go over a few fundamental differences between Ruby and Javascript. Of course there are many more but this is a solid start. For simplicity, I will always put the Javascript code first and then the Ruby code in the examples below.
+    </p>
+    <h4>Ruby Hashes vs. JavaScript Objects</h4>
+    <p>
+      Creating a new object literal in Javascript is easy, and looks surprisingly similar to a hash literal in Ruby. You can use a JS object the same way you use a Ruby hash. If 'person' were a Ruby hash, we would say that it has the <b>keys</b> 'firstName', 'lastName', and 'age'. Since this is a JavaScript object, we refer to them as the <b>properties</b> of that object.
+    </p>
+    <code class="code">
+      var person = { firstName: 'Frank', lastName: 'Hardy', age: 25 };</code>
+    <code class="code">
+      person = { "first_name" => 'Frank', "last_name" => 'Hardy', "age"=> 25}</code>
+
+    <p>
+      In Ruby, the keys can be any data type: string, symbol, array, another hash, etc. This is not the case in JavaScript. The properties of an object are variables, and must conform to the same character requirements as other variables in JavaScript. Properties can still point to any data type value, including functions. Changing the property of an object is the same as changing the value of a variable, except we have to prefix the property with the object's name.
+    </p>
+    <code class="code">
+      person.firstName = "Dora";
+    </code>
+    <code class="code">
+      console.log('Full name: ' + person.firstName + ' ' + person.lastName);
+    </code>
+    <p>
+      You can use the same syntax to add properties that don't already exist, neat right?
+    </p>
+
+    <code class="code">var book = {};</code>
+    <code class="code">book.title; </code>
+
+    <p> Thanks for reading. More to come on this blog stay tuned for: Ruby classes vs. JavaScript constructor functions, Ruby documentation vs. JavaScript documentation, Looping in Ruby vs. Looping in JavaScript. </p>
+
+    <!-- <h4>Ruby classes vs. JavaScript constructor functions</h4> -->
+
+    <!-- Can't get this code to show on separate lines -->
+    <!-- Set up the object
+    var hotel = {
+      name : 'Park',
+      rooms : 120,
+      booked : 77,
+      checkAvailability : function() {
+        return this.rooms - this.booked; // Need "this" because inside function
+      }
+    };  -->
+
+  </section>
+
+  <section>
+    <ul>
+      <li>Comment</li>
+      <li>Like</li>
+      <li>Share</li>
+    </ul>
+
+  </section>
+
+</body>
+</html>
+
+
+
