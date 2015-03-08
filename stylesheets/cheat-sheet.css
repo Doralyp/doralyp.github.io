@@ -1,0 +1,24 @@
+.header{
+  text-align: center;
+  color: red;
+}
+
+#ruby{
+  display: inline-block;
+  width: 600px;
+  height: 1144px;
+  margin: auto;
+}
+
+#js{
+  display: inline-block;
+  width: 600px;
+  height: 900px;
+  margin: auto;
+}
+
+img{
+  max-width: 300px;
+  max-height: 200px;
+  padding: 10px;
+}
