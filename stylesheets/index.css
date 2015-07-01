@@ -1,12 +1,14 @@
 
 /*My name*/
-h1{
+#name a{
   font-family: 'Indie Flower', cursive;
   color: black;
   font-size: 80px;
   letter-spacing: .2em;
   text-align: center;
   margin: 10px;
+  text-decoration: none;
+  margin-left: 310px;
 }
 /*full stack developer*/
 h5{
@@ -45,8 +47,12 @@ li a{
   color: black;
 }
 
-a:hover{
+a.header:hover {
   color: #FF66CC;
+}
+
+a.project:hover {
+  color: red;
 }
 /*main picture*/
 #selfie img{
