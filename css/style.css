@@ -402,6 +402,45 @@ h4.service-title {
     font-weight: bold;
 }
 
+/*My Services*/
+/* Services */
+
+.myservices {
+  background: #FF80D6;
+  padding: 50px 0;
+  color: #ffffff;
+}
+
+
+@media (min-width: 320px) and (max-width: 1024px) { 
+      .myservices {
+      background: #7fbbda;
+      padding: 50px 0;
+      color: #ffffff;
+    }
+}
+
+.myservice-item {
+  margin-bottom: 15px;
+}
+
+i.myservice-icon {
+  border: 3px solid #ffffff;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 56px;
+  width: 140px;
+  height: 140px;
+  line-height: 136px;
+  vertical-align: middle; 
+  text-align: center;
+}
+
+h4.myservice-title {
+    padding: 20px 0px 10px 0px;
+    font-weight: bold;
+}
+
 /* Callout */
 
 .callout {
